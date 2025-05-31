@@ -1,0 +1,36 @@
+/* //All Categories */
+.cat-btn {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.cat-btn:hover {
+    background-color: #015e8a;
+    color: #ffffff;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+/* Card Styles */
+.cat-bg {
+    min-height: 120px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.cat-bg:hover {
+    background-color: #015e8a;
+    color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}

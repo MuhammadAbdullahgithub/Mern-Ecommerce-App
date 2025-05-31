@@ -1,0 +1,70 @@
+.cart-page {
+  margin-top: 64px;
+}
+
+/* Update Address Button */
+.cart-update-address {
+  color: #f1c40f;
+  background-color: #ffffff;
+  border: 1px solid #f1c40f;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.cart-update-address:hover {
+  background-color: black;
+  color: #ffffff;
+
+}
+
+/* Make Payment Button */
+.cart-make-payment {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.cart-make-payment:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+.cart-make-payment:disabled {
+  background-color: #a9a9a9;
+  cursor: not-allowed;
+}
+
+.cart-header {
+  width: 100vw;
+  background-color: rgba(0, 0, 255, 0.072) !important;
+  /* Light gray */
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.cart-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cart-header p {
+  margin: 5px 0 0 0;
+  font-size: 25px;
+  color: #555;
+}

@@ -1,0 +1,78 @@
+.product-details {
+    margin-top: 100px !important;
+}
+
+.product-details-info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.product-details-info h6 {
+    margin-bottom: 20px !important;
+}
+
+.similar-products .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+}
+
+.similar-products .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.similar-products .card-price {
+    color: green;
+    font-weight: bold;
+}
+
+.similar-products button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.similar-products .card-text {
+    color: rgb(90, 89, 89);
+}
+
+.similar-products .card img:hover {
+    transform: scale(0.9);
+}
+
+.similar-products .card-img-top {
+    height: 300px !important;
+}
+
+.pdt-btn {
+    background-color: rgb(11, 11, 235);
+    /* Info color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-left: 8px;
+}
+
+.pdt-btn:hover {
+    background-color: #000000;
+    /* Darker shade on hover */
+}
+
+.loading-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
