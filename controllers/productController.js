@@ -4,9 +4,8 @@ import slugify from "slugify";
 import fs from "fs";
 import categoryModel from "../models/categoryModel.js";
 import braintree from "braintree";
-import dotenv from "dotenv";
 
-dotenv.config();
+
 
 //payment gateway
 var gateway = new braintree.BraintreeGateway({
